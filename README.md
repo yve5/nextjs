@@ -1,1 +1,6 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Todo
+
+- hash strategy router
+- "next": "latest"
+- **dynamic routes**
+- deploy
