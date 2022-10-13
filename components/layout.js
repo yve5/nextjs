@@ -5,7 +5,7 @@ import Link from 'next/link';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 
-const name = 'Yes Roll';
+const userName = 'Yes Roll';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
@@ -32,13 +32,13 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/nextjs/images/profile.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt=""
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{userName}</h1>
           </>
         ) : (
           <>
@@ -46,7 +46,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/nextjs/images/profile.jpg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
@@ -56,7 +56,7 @@ export default function Layout({ children, home }) {
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a className={utilStyles.colorInherit}>{userName}</a>
               </Link>
             </h2>
           </>
