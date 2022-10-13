@@ -1,7 +1,7 @@
 # Todo
 
 - hash strategy router
-- `"next": "latest"`
-- **dynamic routes**
+- airbnb linter
+- unit tests
 - deploy
 - redux
