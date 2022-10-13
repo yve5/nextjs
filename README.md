@@ -1,6 +1,7 @@
 # Todo
 
 - hash strategy router
-- "next": "latest"
+- `"next": "latest"`
 - **dynamic routes**
 - deploy
+- redux
