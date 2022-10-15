@@ -1,6 +1,8 @@
 # Todo
 
-- hash strategy router
+- ~~hash strategy router~~
 - airbnb linter
 - unit tests
+- bootstrap
 - redux
+- i18n
